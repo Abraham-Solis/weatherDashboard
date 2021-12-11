@@ -18,11 +18,12 @@
   </header>
   <div class="container-fluid">
     <div class="row">
-      <h1 id="form-heading" class="mt-1 h3 form-label text-center"> Future Forecast </h1>
-      <br>
-      <br>
-      <h3 id="form-heading" class="mt-1 h3 form-label"> Input a desired Location below and be presented with current and
-        future conditions for your city and your city is added to the search history! </h3>
+      <div class="jumbotron">
+        <h1 class="display-4 text-center">Future Forecast</h1>
+        <p class="lead">Begin searching for your desired city below and be presented with current and future conditions
+          for that city and that city is added to the search history!</p>
+
+      </div>
       <form>
         <div class="col-2">
           <div class="mb-3">
@@ -36,14 +37,14 @@
       </form>
       <div class="col-4">
         <div class="input-group-append col-4">
-          <button id="search" type="submit" class="btn search button" aria-label="submit search">
+          <button id="search" type="submit" class="btn search button btn-info" aria-label="submit search">
             Submit
           </button>
         </div>
       </div>
     </div>
-    
-    <!-- <hr class = "hr weather-hr"></hr> -->
+
+    <hr class = "hr weather-hr"></hr>
 
     <div class="list-group" id="history"></div>
 
